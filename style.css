@@ -1,3 +1,19 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h3 {
+  font-family: 'Fipps', Arial, sans-serif;
+}
+
 header img {
   width: 500px;
 }
+
+/* FONT(s) */
+@font-face {
+  font-family: "Fipps";
+  src: url('font/Fipps-Regular.otf') format('truetype');
+ }
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
