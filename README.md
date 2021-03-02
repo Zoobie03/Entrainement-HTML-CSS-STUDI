@@ -1,4 +1,4 @@
-# évaluation effectuée dans le cadre de ma formation Graduate Développeurs Full-Stack.
+# Evaluation effectuée dans le cadre de ma formation Graduate Développeurs Full-Stack.
 EVALUATION D’ENTRAÎNEMENT:
 Créer un site web avec HTML, CSS et Bootstrap.
 
