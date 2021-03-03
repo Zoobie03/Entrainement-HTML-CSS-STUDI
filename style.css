@@ -41,6 +41,16 @@ h4 {
   text-align: center;
 }
 
+/* Footer */
+footer {
+  width: 90%;
+  margin: auto;
+  border: 1px dashed black;
+  background-color: lightgrey;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
 /* Separator */
 .separator {
   width: 80%;
