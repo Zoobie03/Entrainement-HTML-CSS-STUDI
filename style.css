@@ -1,6 +1,7 @@
 /* Generals */
 body {
   font-family: 'Roboto', sans-serif;
+  background: linear-gradient(#FAEBD7 50%, #FFA500);
 }
 
 p {
