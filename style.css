@@ -51,6 +51,10 @@ article img {
   margin: auto;
 }
 
+.card {
+  width: 90%;
+}
+
 /* Footer */
 footer {
   width: 90%;
