@@ -7,6 +7,7 @@ p {
   text-align: justify;
   margin: 20px;
   line-height: 32px;
+  font-size: 1.3em;
 }
 
 ul {
@@ -33,6 +34,7 @@ h3 {
 h1,
 h3 {
   font-family: 'Fipps', Arial, sans-serif;
+  line-height: 30px;
 }
 
 h1,
