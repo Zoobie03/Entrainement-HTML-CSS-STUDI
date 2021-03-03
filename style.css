@@ -42,6 +42,13 @@ h4 {
   text-align: center;
 }
 
+/* Main */
+article img {
+  width: 325px;
+  display: block;
+  margin: auto;
+}
+
 /* Footer */
 footer {
   width: 90%;
