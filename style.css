@@ -1,4 +1,4 @@
-/* GENERALS */
+/* Generals */
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -28,6 +28,18 @@ h1, h2, h3 {
 p {
   text-align: justify;
   margin: 20px;
+  line-height: 32px;
+}
+
+
+/* Separator */
+.separator {
+  width: 80%;
+	height: 2px;
+  margin: 20px auto 20px auto;
+  border-radius: 50%;
+	display: block;
+	background: rgb(231, 26, 26);
 }
 
 /* FONT(s) */
