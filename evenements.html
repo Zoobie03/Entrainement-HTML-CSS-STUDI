@@ -62,6 +62,53 @@
         </a>
         </article>
 
+        <span class="separator"></span>
+
+        <!-- Modal -->
+        <div class="modal fade" 
+             id="sprintDevModal" 
+             tabindex="-1" 
+             aria-labelledby="sprintDevModalLabel" 
+             aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="sprintDevModalLabel">Inscription à un Sprint Dev</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="city" class="col-form-label">Ville du Sprint Dev :</label>
+                    <input type="text" class="form-control" id="city">
+                  </div>
+                  <div class="mb-3">
+                    <label for="name" class="col-form-label">Nom / Prénom : </label>
+                    <input class="form-control" id="name">
+                  </div>
+                  <div class="mb-3">
+                    <label for="mail" class="col-form-label">E-mail : </label>
+                    <input class="form-control" id="mail">
+                  </div>
+                  <div class="mb-3">
+                    <label for="message-text" class="col-form-label">Informations complémentaires :</label>
+                    <textarea class="form-control" 
+                              id="message-text" 
+                    >                      
+                    </textarea>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                <button type="button" class="btn btn-success">Envoyer</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fin modal -->
+
         <section>
           <!-- 1st card -->
             <div class="card mx-auto my-3 rounded">
@@ -72,33 +119,51 @@
                   Notre prochain sprint dev se déroulera dans la ville de Bordeaux ! N'hésitez pas
                   à nous rejoindre dans ce défis de 48h.
                 </p>
-                <a href="#" class="btn btn-primary">S'inscrire</a>
+                <button type="button" 
+                        class="btn btn-primary" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#sprintDevModal"
+                >
+                  S'inscrire
+                </button>
               </div>
             </div>
 
             <!-- 2nd card -->
             <div class="card mx-auto my-3 rounded">
-              <img src="picture/city/bordeaux.webp" class="card-img-top" alt="photo de Bordeaux">
+              <img src="picture/city/lyon.jpg" class="card-img-top" alt="photo de Lyon">
               <div class="card-body">
-                <h5 class="card-title fw-bold">Sprint Dev de Février 2021</h5>
+                <h5 class="card-title fw-bold">Sprint Dev de Juillet 2021</h5>
                 <p class="card-text">
-                  Notre prochain sprint dev se déroulera dans la ville de Bordeaux ! N'hésitez pas
+                  Notre prochain sprint dev se déroulera dans la ville de Lyon ! N'hésitez pas
                   à nous rejoindre dans ce défis de 48h.
                 </p>
-                <a href="#" class="btn btn-primary">S'inscrire</a>
+                <button type="button" 
+                        class="btn btn-primary" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#sprintDevModal"
+                >
+                  S'inscrire
+                </button>
               </div>
             </div>
 
             <!-- 3rd card -->
             <div class="card mx-auto my-3 rounded">
-              <img src="picture/city/bordeaux.webp" class="card-img-top" alt="photo de Bordeaux">
+              <img src="picture/city/besancon.jpg" class="card-img-top" alt="photo de Besançon">
               <div class="card-body">
-                <h5 class="card-title fw-bold">Sprint Dev de Février 2021</h5>
+                <h5 class="card-title fw-bold">Sprint Dev de Novembre 2021</h5>
                 <p class="card-text">
-                  Notre prochain sprint dev se déroulera dans la ville de Bordeaux ! N'hésitez pas
-                  à nous rejoindre dans ce défis de 48h.
+                  Notre prochain sprint dev se déroulera dans la plus belle ville du monde :  
+                  Besançon ! N'hésitez pas à nous rejoindre dans ce défis de 48h.
                 </p>
-                <a href="#" class="btn btn-primary">S'inscrire</a>
+                <button type="button" 
+                        class="btn btn-primary" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#sprintDevModal"
+                >
+                  S'inscrire
+                </button>
               </div>
             </div>
         </section>
