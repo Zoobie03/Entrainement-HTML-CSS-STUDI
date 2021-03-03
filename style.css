@@ -3,10 +3,22 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+p {
+  text-align: justify;
+  margin: 20px;
+  line-height: 32px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Header */
 header img {
   width: 375px;
 }
 
+/* Titles */
 h1 {
   font-size: 1.5em;
   padding-bottom: 20px;
@@ -17,20 +29,17 @@ h3 {
   text-decoration: underline;
 }
 
-h1, h3 {
+h1,
+h3 {
   font-family: 'Fipps', Arial, sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3,
+h4 {
   text-align: center;
 }
-
-p {
-  text-align: justify;
-  margin: 20px;
-  line-height: 32px;
-}
-
 
 /* Separator */
 .separator {
@@ -42,7 +51,7 @@ p {
 	background: rgb(231, 26, 26);
 }
 
-/* FONT(s) */
+/* Fonts */
 @font-face {
   font-family: "Fipps";
   src: url('font/Fipps-Regular.otf') format('truetype');
