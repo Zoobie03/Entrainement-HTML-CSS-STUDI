@@ -36,11 +36,10 @@ h1,
 h3 {
   font-family: 'Fipps', Arial, sans-serif;
   line-height: 30px;
+  text-align: center;
 }
 
-h1,
 h2,
-h3,
 h4 {
   text-align: center;
 }
