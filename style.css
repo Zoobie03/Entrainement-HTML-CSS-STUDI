@@ -53,7 +53,7 @@ article img {
 }
 
 .card {
-  width: 90%;
+  width: 80%;
 }
 
 /* Footer */
@@ -124,6 +124,47 @@ footer {
 
   article p {
     width: 900px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  header img {
+    width: 800px;
+  }
+
+  h1 {
+    font-size: 1.9em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  article img {
+    width: 1000px;
+  }
+  
+  article p {
+    width: 1000px;
+  }
+}
+
+@media all and (min-width: 1400px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  .progress {
+    width: 60%;
+    margin: auto;
+  }
+
+  h6 {
+    text-align: center;
+  }
+
+  .card {
+    width: 30%;
   }
 }
 
