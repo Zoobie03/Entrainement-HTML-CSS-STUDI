@@ -76,6 +76,27 @@ footer {
 	background: rgb(231, 26, 26);
 }
 
+/* Media queries */
+@media all and (min-width: 576px) {
+  header img {
+    width: 500px;
+  }
+
+  article img {
+    width: 500px;
+  }
+
+  h1 {
+    font-size: 1.6em;
+  }
+
+  h3 {
+    font-size: 1.3em;
+    width: 90%;
+    margin: auto;
+  }
+}
+
 /* Fonts */
 @font-face {
   font-family: "Fipps";
