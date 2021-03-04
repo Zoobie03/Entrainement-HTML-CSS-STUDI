@@ -97,6 +97,26 @@ footer {
   }
 }
 
+@media all and (min-width: 768px) {
+  header img {
+    width: 700px;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  article img {
+    width: 700px;
+  }
+  
+  article p {
+    width: 700px;
+    margin: 30px auto;
+    line-height: 36px;
+  }
+}
+
 /* Fonts */
 @font-face {
   font-family: "Fipps";
