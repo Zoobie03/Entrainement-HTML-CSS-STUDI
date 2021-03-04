@@ -147,6 +147,10 @@ footer {
   article p {
     width: 1000px;
   }
+
+  a:hover {
+    font-weight: bold;
+  }
 }
 
 @media all and (min-width: 1400px) {
