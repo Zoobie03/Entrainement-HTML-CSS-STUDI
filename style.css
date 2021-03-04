@@ -117,6 +117,16 @@ footer {
   }
 }
 
+@media all and (min-width: 992px) {
+  article img {
+    width: 900px;
+  }
+
+  article p {
+    width: 900px;
+  }
+}
+
 /* Fonts */
 @font-face {
   font-family: "Fipps";
