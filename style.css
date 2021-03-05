@@ -20,6 +20,11 @@ header img {
   width: 375px;
 }
 
+.nav-icon {
+  width: auto;
+  height: auto;
+}
+
 /* Titles */
 h1 {
   font-size: 1.5em;
